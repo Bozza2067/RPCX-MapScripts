@@ -12,7 +12,7 @@ RichPresence = {
 	AppID = "", -- ID of the Discord Application you wish to use. Leave empty to use the default FiveM one.
 	AssetID = "", -- Requires you to have set an AppID and added rich presence assets to that application.
 	Text = {
-		Line1 = "PolicingMP San Andreas (Alpha)",
+		Line1 = "PRCX San Andreas",
 		Line2 = "Doing something",
 	},
 	-- BELOW THIS LINE IS NOT FUNCTIONING! TO CHANGE PICTURES AND LINKS YOU WILL HAVE TO GO TO CLIENT.LUA FOR NOW!
@@ -26,7 +26,6 @@ RichPresence = {
 	},
 }
 
-LockRadioStation("RADIO_27_DLC_PRHEI4", false) -- Unlock Still Slipping Los Santos
 AddTextEntry('FE_THDR_GTAO', ServerName)
 
 -- Discord Rich Presence
