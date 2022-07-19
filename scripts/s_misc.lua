@@ -1,0 +1,2 @@
+SetMapName(MapName)
+SetGameType(GameType)
