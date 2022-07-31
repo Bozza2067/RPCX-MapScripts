@@ -1,4 +1,5 @@
-SetDefaultVehicleNumberPlateTextPattern(4, '^11111111')
+SetDefaultVehicleNumberPlateTextPattern(4, '^11111111') -- SA EXEMPT
+SetDefaultVehicleNumberPlateTextPattern(5, 'AAA  111') -- NORTH YANKTON
 
 Citizen.CreateThread(function()
 
