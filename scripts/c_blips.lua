@@ -316,6 +316,30 @@ local blips = {
 		address = "1054 Paleto Blvd, Paleto Bay, SA",
 		lowpriority = true,
 	},
+	{
+		type = "Motel",
+		id = 84,
+		x = 379.01, 
+		y = -1802.93, 
+		z = 29.09, 
+		name = "Rancho Motel",
+		image = "davis_motel1",
+		address = "9157 Roy Lowenstein Boulevard, Davis, SA",
+		description = "Motel with clean rooms and servicable facilities. Perfect for train lovers and firearm enthusiasts.",
+		lowpriority = true,
+	},
+	{
+		type = "Store",
+		id = 52,
+		x = 381.77, 
+		y = -1782.88, 
+		z = 29.52, 
+		name = "Rancho Discount Grocery",
+		image = "davis_store1",
+		address = "9157 Roy Lowenstein Boulevard, Davis, SA",
+		description = "Local grocery store with a wide selection of alcohol and a distinct lack of fresh produce.",
+		lowpriority = true,
+	},
 }
 
 
