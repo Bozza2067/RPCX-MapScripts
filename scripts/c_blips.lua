@@ -325,7 +325,7 @@ local blips = {
 		name = "Rancho Motel",
 		image = "davis_motel1",
 		address = "9157 Roy Lowenstein Boulevard, Davis, SA",
-		description = "Motel with clean rooms and servicable facilities. Perfect for train lovers and firearm enthusiasts.",
+		description = "Motel with clean rooms and servicable facilities. Perfect for train lovers and gun crime enthusiasts.",
 		lowpriority = true,
 	},
 	{
@@ -338,6 +338,18 @@ local blips = {
 		image = "davis_store1",
 		address = "9157 Roy Lowenstein Boulevard, Davis, SA",
 		description = "Local grocery store with a wide selection of alcohol and a distinct lack of fresh produce.",
+		lowpriority = true,
+	},
+	{
+		type = "Motel",
+		id = 84,
+		x = -92.11, 
+		y = 6335.95, 
+		z = 31.49, 
+		name = "Dreamview Motel",
+		image = "dreamview_motel",
+		address = "1024 Great Ocean Hwy, Paleto Bay, SA",
+		description = "Multi-floor motel with spacious rooms, private kitchen facilities and flatscreen TVs.",
 		lowpriority = true,
 	},
 }
