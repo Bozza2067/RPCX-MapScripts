@@ -24,11 +24,15 @@ CreateThread(function()
 	while true do
 		local pCoords = GetEntityCoords(PlayerPedId())
 		if #(pCoords - islandCoords) < 2000.0 then
-			islandLoaded = not islandLoaded
-			SetAiGlobalPathNodesType(1)
+			if not islandLoaded then
+				islandLoaded = true
+				SetAiGlobalPathNodesType(1)
+			end
 		else
-			islandLoaded = not islandLoaded
-			SetAiGlobalPathNodesType(0)
+			if islandLoaded
+				islandLoaded = false
+				SetAiGlobalPathNodesType(0)
+			end
 		end
 		Wait(5000)
 	end
