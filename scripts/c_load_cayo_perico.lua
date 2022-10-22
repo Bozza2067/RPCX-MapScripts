@@ -24,15 +24,11 @@ CreateThread(function()
 	while true do
 		local pCoords = GetEntityCoords(PlayerPedId())
 		if #(pCoords - islandCoords) < 2000.0 then
-			if not islandLoaded then
-				islandLoaded = true
-				Citizen.InvokeNative(0xF74B1FFA4A15FBEA, 1)
-			end
+			islandLoaded = not islandLoaded
+			SetAiGlobalPathNodesType(1)
 		else
-			if islandLoaded then
-				islandLoaded = false
-				Citizen.InvokeNative(0xF74B1FFA4A15FBEA, 0)
-			end
+			islandLoaded = not islandLoaded
+			SetAiGlobalPathNodesType(0)
 		end
 		Wait(5000)
 	end
