@@ -1,5 +1,6 @@
 
 ServerName = "RPCX San Andreas" -- Currently only for the pause menu
+KeybindName = "RPCX Keybinds" -- Replace "FiveM" in keybinds
 WelcomeMessage = "Welcome to RPCX. This server is a development environment for a number of FiveM servers." -- Set text to be displayed in top left corner upon joining the server. Max 99 characters.
 WelcomeMessage2 = "To find out more, visit rpcx.policingmp.net" -- Optional part 2 to above. Will be displayed 10 seconds after the first one. Leave empty to ignore.
 
@@ -24,6 +25,7 @@ RichPresence = {
 }
 
 AddTextEntry('FE_THDR_GTAO', ServerName)
+AddTextEntry('PM_PANE_CFX', KeybindName)
 
 -- Discord Rich Presence
 
