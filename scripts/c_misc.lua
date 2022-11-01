@@ -1,4 +1,3 @@
-
 ServerName = "RPCX San Andreas" -- Currently only for the pause menu
 KeybindName = "RPCX Keybinds" -- Replace "FiveM" in keybinds
 WelcomeMessage = "Welcome to RPCX. This server is a development environment for a number of FiveM servers." -- Set text to be displayed in top left corner upon joining the server. Max 99 characters.
@@ -6,12 +5,12 @@ WelcomeMessage2 = "To find out more, visit rpcx.policingmp.net" -- Optional part
 
 -- Discord Rich Presence
 RichPresence = {
-	Enabled = true,
+	Enabled = false,
 	AppID = "", -- ID of the Discord Application you wish to use. Leave empty to use the default FiveM one.
 	AssetID = "", -- Requires you to have set an AppID and added rich presence assets to that application.
 	Text = {
 		Line1 = "RPCX Development Server",
-		Line2 = "In San Andreas",
+		Line2 = "Working on addon weapons",
 	},
 	-- BELOW THIS LINE IS NOT FUNCTIONING! TO CHANGE PICTURES AND LINKS YOU WILL HAVE TO GO TO CLIENT.LUA FOR NOW!
 	Button1 = { 
