@@ -29,7 +29,7 @@ CreateThread(function()
 				SetAiGlobalPathNodesType(1)
 			end
 		else
-			if islandLoaded
+			if islandLoaded then
 				islandLoaded = false
 				SetAiGlobalPathNodesType(0)
 			end
